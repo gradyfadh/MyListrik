@@ -185,7 +185,7 @@
                             Pastikan Anda mentransfer sesuai nominal <span class="font-semibold text-blue-600">
                                 Rp
                                 {{ number_format($tagihan->jumlah_meter * ($tagihan->pelanggan->tarif->tarifperkwh ?? 0), 0, ',', '.') }}
-                            </span> a.n PT Voltix.
+                            </span> a.n PT Listrik Sejati.
                         </p>
 
                         {{-- Payment Methods from Database --}}

@@ -70,7 +70,7 @@
 
 <body>
     <div class="struk">
-        <h2>VOLTIX</h2>
+        <h2>MyListrik</h2>
         <p style="text-align: center; font-size: 11px; margin: -5px 0 15px 0;">
             Sistem Pembayaran Listrik Pascabayar<br>
             ====================================

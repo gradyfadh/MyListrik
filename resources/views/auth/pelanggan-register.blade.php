@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daftar Pelanggan - VoltPay</title>
+    <title>Daftar Pelanggan - MyListrikPay</title>
     <!-- CSS -->
     <link href="{{ asset('vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css_admin/sb-admin-2.min.css') }}" rel="stylesheet">
@@ -17,7 +17,7 @@
 
             <!-- Kiri: Form Registrasi -->
             <div class="p-8">
-                <h2 class="text-2xl font-bold text-[#ff654d] mb-1 text-center">🔌 Voltix - Daftar Pelanggan</h2>
+                <h2 class="text-2xl font-bold text-[#ff654d] mb-1 text-center">🔌 MyListrik - Daftar Pelanggan</h2>
                 <p class="text-center text-sm text-gray-500 mb-6">Buat akun pelanggan baru untuk mulai mengelola tagihan
                     listrik Anda</p>
 
@@ -141,7 +141,7 @@
             <div
                 class="bg-gradient-to-br from-[#ff654d] to-[#e14b3b] text-white flex flex-col justify-center items-center p-8">
                 <div class="text-center">
-                    <div class="text-4xl font-bold mb-4">⚡ Voltix</div>
+                    <div class="text-4xl font-bold mb-4">⚡ MyListrik</div>
                     <h3 class="text-xl font-semibold mb-4">Bergabunglah dengan Kami!</h3>
                     <p class="text-sm max-w-xs mb-6 opacity-90">
                         Nikmati kemudahan mengelola tagihan listrik dengan sistem digital yang modern dan aman.

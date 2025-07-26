@@ -52,7 +52,7 @@
                     </label>
                     <input type="text" id="atas_nama" name="atas_nama" value="{{ old('atas_nama') }}"
                         class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                        placeholder="Contoh: PT. Voltix Listrik" required>
+                        placeholder="Contoh: PT Listrik Sejati" required>
                     @error('atas_nama')
                         <p class="mt-1 text-sm text-red-600">{{ $message }}</p>
                     @enderror

@@ -1,6 +1,6 @@
 <aside class="w-80 h-full bg-white shadow-md rounded-t-3xl ml-10 mt-5 overflow-hidden">
     <div class="sticky top-0 bg-white p-6 text-xl font-bold text-indigo-700 flex items-center gap-2 z-10">
-        Voltix Admin
+        MyListrik Admin
     </div>
     <nav class=" w-full flex flex-col sidebar-nav px-4">
         <ul id="sidebarnav" class="text-gray-600 text-sm in overflow-y-auto max-h-[calc(100vh-100px)] pr-2">

@@ -20,7 +20,7 @@ class MetodePembayaranSeeder extends Seeder
             [
                 'nama'            => 'Bank Central Asia (BCA)',
                 'kode'            => 'BCA',
-                'atas_nama'       => 'PT Voltix Persero',
+                'atas_nama'       => 'PT Listrik Sejati',
                 'nomor_rekening'  => '1234567890',
                 'biaya_admin'     => 2500,
                 'deskripsi'       => 'Transfer ke rekening BCA perusahaan.',
@@ -30,7 +30,7 @@ class MetodePembayaranSeeder extends Seeder
             [
                 'nama'            => 'Bank Mandiri',
                 'kode'            => 'MANDIRI',
-                'atas_nama'       => 'PT Voltix Persero',
+                'atas_nama'       => 'PT Listrik Sejati',
                 'nomor_rekening'  => '1400000001',
                 'biaya_admin'     => 2500,
                 'deskripsi'       => 'Pembayaran via Mandiri Bill Payment atau transfer biasa.',
@@ -40,7 +40,7 @@ class MetodePembayaranSeeder extends Seeder
             [
                 'nama'            => 'Bank Negara Indonesia (BNI)',
                 'kode'            => 'BNI',
-                'atas_nama'       => 'PT Voltix Persero',
+                'atas_nama'       => 'PT Listrik Sejati',
                 'nomor_rekening'  => '0090000002',
                 'biaya_admin'     => 2500,
                 'deskripsi'       => 'Pembayaran melalui Virtual Account BNI.',
@@ -50,7 +50,7 @@ class MetodePembayaranSeeder extends Seeder
             [
                 'nama'            => 'Bank Rakyat Indonesia (BRI)',
                 'kode'            => 'BRI',
-                'atas_nama'       => 'PT Voltix Persero',
+                'atas_nama'       => 'PT Listrik Sejati',
                 'nomor_rekening'  => '002901234567890',
                 'biaya_admin'     => 2500,
                 'deskripsi'       => 'Support BRImo, ATM & internet banking.',
@@ -60,7 +60,7 @@ class MetodePembayaranSeeder extends Seeder
             [
                 'nama'            => 'Bank Syariah Indonesia (BSI)',
                 'kode'            => 'BSI',
-                'atas_nama'       => 'PT Voltix Persero',
+                'atas_nama'       => 'PT Listrik Sejati',
                 'nomor_rekening'  => '7131200001',
                 'biaya_admin'     => 3000,
                 'deskripsi'       => 'Virtual Account & transfer Syariah.',
@@ -72,7 +72,7 @@ class MetodePembayaranSeeder extends Seeder
             [
                 'nama'            => 'OVO',
                 'kode'            => 'OVO',
-                'atas_nama'       => 'PT Voltix Persero',
+                'atas_nama'       => 'PT Listrik Sejati',
                 'nomor_rekening'  => '081234567890',
                 'biaya_admin'     => 1500,
                 'deskripsi'       => 'Pembayaran instan melalui aplikasi OVO.',
@@ -82,7 +82,7 @@ class MetodePembayaranSeeder extends Seeder
             [
                 'nama'            => 'GoPay',
                 'kode'            => 'GOPAY',
-                'atas_nama'       => 'PT Voltix Persero',
+                'atas_nama'       => 'PT Listrik Sejati',
                 'nomor_rekening'  => '081234567891',
                 'biaya_admin'     => 1500,
                 'deskripsi'       => 'Bayar pakai saldo GoPay / GoPayLater.',
@@ -92,7 +92,7 @@ class MetodePembayaranSeeder extends Seeder
             [
                 'nama'            => 'DANA',
                 'kode'            => 'DANA',
-                'atas_nama'       => 'PT Voltix Persero',
+                'atas_nama'       => 'PT Listrik Sejati',
                 'nomor_rekening'  => '081234567892',
                 'biaya_admin'     => 1500,
                 'deskripsi'       => 'Pembayaran cepat lewat aplikasi DANA.',
@@ -102,7 +102,7 @@ class MetodePembayaranSeeder extends Seeder
             [
                 'nama'            => 'ShopeePay',
                 'kode'            => 'SHOPEEPAY',
-                'atas_nama'       => 'PT Voltix Persero',
+                'atas_nama'       => 'PT Listrik Sejati',
                 'nomor_rekening'  => '081234567893',
                 'biaya_admin'     => 1500,
                 'deskripsi'       => 'Gunakan saldo ShopeePay / SPayLater.',
@@ -112,7 +112,7 @@ class MetodePembayaranSeeder extends Seeder
             [
                 'nama'            => 'QRIS',
                 'kode'            => 'QRIS',
-                'atas_nama'       => 'PT Voltix Persero',
+                'atas_nama'       => 'PT Listrik Sejati',
                 'nomor_rekening'  => null,
                 'biaya_admin'     => 2000,
                 'deskripsi'       => 'Scan kode QRIS untuk semua aplikasi bank/e‑wallet.',

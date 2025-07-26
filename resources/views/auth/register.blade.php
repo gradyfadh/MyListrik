@@ -6,7 +6,7 @@
 
         <!-- Kiri: Form Registrasi -->
         <div class="p-8">
-            <h2 class="text-2xl font-bold text-[#ff654d] mb-1 text-center">🔌 Voltix</h2>
+            <h2 class="text-2xl font-bold text-[#ff654d] mb-1 text-center">🔌 MyListrik</h2>
             <p class="text-center text-sm text-gray-500 mb-6">Buat akun baru untuk mulai mengelola tagihan listrik Anda</p>
 
             @if ($errors->any())
@@ -95,7 +95,7 @@
         <!-- Kanan: Branding -->
         <div class="bg-gradient-to-br from-[#ff654d] to-[#ff7e66] text-white flex flex-col justify-center items-center p-8">
             <div class="text-center">
-                <div class="text-4xl font-bold mb-2">∞ Voltix</div>
+                <div class="text-4xl font-bold mb-2">∞ MyListrik</div>
                 <p class="text-sm max-w-xs">
                     Pantau dan bayar tagihan listrik Anda dengan mudah dan aman.
                     Nikmati kenyamanan sistem pascabayar digital yang modern.

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - VoltPay</title>
+    <title>Login - MyListrikPay</title>
     <!-- CSS -->
     <link href="{{ asset('vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css_admin/sb-admin-2.min.css') }}" rel="stylesheet">
@@ -17,7 +17,7 @@
 
             <!-- Kiri: Form Login -->
             <div class="p-8">
-                <h2 class="text-2xl font-bold text-[#ff654d] mb-1 text-center">⚡ Voltix Admin</h2>
+                <h2 class="text-2xl font-bold text-[#ff654d] mb-1 text-center">⚡ MyListrik Admin</h2>
                 <p class="text-center text-sm text-gray-500 mb-6">Masuk ke akun Anda untuk mengakses layanan</p>
 
                 <!-- Include Alert Component dengan Fixed Position -->
@@ -66,7 +66,7 @@
             <div
                 class="bg-gradient-to-br from-[#ff654d] to-[#ff7e66] text-white flex flex-col justify-center items-center p-8">
                 <div class="text-center">
-                    <div class="text-4xl font-bold mb-2">∞ Voltix</div>
+                    <div class="text-4xl font-bold mb-2">∞ MyListrik</div>
                     <p class="text-sm max-w-xs">
                         Login dan mulai kelola tagihan listrik pascabayar Anda secara praktis dan aman.
                     </p>
