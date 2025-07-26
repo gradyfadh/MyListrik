@@ -1,0 +1,12 @@
+.btn-volt {
+    background-color: #ff654d;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+}
+
+.bg-skyvolt {
+    background-color: #8cbbe5;
+    color: white;
+    padding: 1rem;
+}
