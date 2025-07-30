@@ -17,7 +17,7 @@
 
             <!-- Kiri: Form Login -->
             <div class="p-8">
-                <h2 class="text-2xl font-bold text-[#ff654d] mb-1 text-center">⚡ MyListrik Admin</h2>
+                <h2 class="text-2xl font-bold text-blue-500 mb-1 text-center">⚡ MyListrik Admin</h2>
                 <p class="text-center text-sm text-gray-500 mb-6">Masuk ke akun Anda untuk mengakses layanan</p>
 
                 <!-- Include Alert Component dengan Fixed Position -->
@@ -30,30 +30,30 @@
 
                     <div class="mb-4">
                         <input type="email" name="email" placeholder="Email"
-                            class="w-full rounded-full px-4 py-2.5 bg-blue-50 text-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#ff654d]"
+                            class="w-full rounded-full px-4 py-2.5 bg-blue-50 text-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
                             required autofocus>
                     </div>
 
                     <div class="mb-4">
                         <input type="password" name="password" placeholder="Kata Sandi"
-                            class="w-full rounded-full px-4 py-2.5 bg-blue-50 text-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#ff654d]"
+                            class="w-full rounded-full px-4 py-2.5 bg-blue-50 text-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
                             required>
                     </div>
 
                     <!-- Tombol Submit -->
                     <button type="submit"
-                        class="w-full bg-[#ff654d] text-white py-2.5 mt-2 rounded-full font-semibold hover:bg-[#e14b3b] transition">
+                        class="w-full bg-blue-500 text-white py-2.5 mt-2 rounded-full font-semibold hover:bg-blue-700 transition">
                         Masuk sebagai Admin
                     </button>
 
                     <div class="mt-4 flex justify-between text-sm">
-                        <a href="{{ url('/') }}" class="text-gray-600 hover:text-[#ff654d]">&larr; Beranda</a>
-                        <a href="{{ route('register') }}" class="text-[#ff654d] hover:underline">Belum punya akun?
+                        <a href="{{ url('/') }}" class="text-gray-600 hover:text-blue-500">&larr; Beranda</a>
+                        <a href="{{ route('register') }}" class="text-blue-500 hover:underline">Belum punya akun?
                             Daftar</a>
                     </div>
 
                     <div class="mt-3 text-center">
-                        <a href="{{ route('pelanggan.login') }}" class="text-gray-500 hover:text-[#ff654d] text-sm">
+                        <a href="{{ route('pelanggan.login') }}" class="text-gray-500 hover:text-blue-500 text-sm">
                             Login sebagai Pelanggan
                         </a>
                     </div>
@@ -64,7 +64,7 @@
 
             <!-- Kanan: Branding -->
             <div
-                class="bg-gradient-to-br from-[#ff654d] to-[#ff7e66] text-white flex flex-col justify-center items-center p-8">
+                class="bg-blue-500 text-white flex flex-col justify-center items-center p-8">
                 <div class="text-center">
                     <div class="text-4xl font-bold mb-2">∞ MyListrik</div>
                     <p class="text-sm max-w-xs">

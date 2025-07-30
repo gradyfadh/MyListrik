@@ -5,7 +5,7 @@
         <div class="container mx-auto flex flex-col-reverse md:flex-row items-center px-4 gap-12">
             <div class="md:w-1/2 text-center md:text-left">
                 <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-4 text-gray-800">
-                    Web Pembayaran <span class="text-orange-600">Listrik</span> Pascabayar
+                    Web Pembayaran <span class="text-blue-500">Listrik</span> Pascabayar
                 </h1>
                 <p class="text-gray-600 mb-8 text-lg">
                     Cek riwayat penggunaan, pantau tagihan terbaru, dan lakukan pembayaran secara online dengan aman.
@@ -13,17 +13,17 @@
                 <div class="flex justify-center md:justify-start gap-4">
 
                     <a href="#"
-                        class="bg-orange-600 text-white px-7 py-3 rounded-md font-medium hover:bg-orange-500 transition duration-200 shadow-md">Cek
+                        class="bg-blue-500 text-white px-7 py-3 rounded-md font-medium hover:bg-blue-600 transition duration-200 shadow-md">Cek
                         Tagihan</a>
 
                     <a href="{{ route('register') }}"
-                        class="bg-white border border-blue-600 text-blue-600 px-7 py-3 rounded-md font-medium hover:bg-blue-100 transition duration-200 shadow-md">Daftar
+                        class="bg-white border border-yellow-500 text-yellow-600 px-7 py-3 rounded-md font-medium hover:bg-yellow-50 transition duration-200 shadow-md">Daftar
                         Sekarang</a>
                 </div>
             </div>
             <div class="md:w-1/2 flex justify-end">
-                <img src="{{ asset('assets/images/landing_image.jpg') }}" alt="Ilustrasi E-Invoice"
-                    class="max-w-xs md:max-w-sm lg:max-w-md">
+                <img src="{{ asset('assets/images/payment.jpg') }}" alt="Ilustrasi E-Invoice"
+                    class="max-w-sm md:max-w-lg lg:max-w-xl xl:max-w-2xl">
             </div>
         </div>
     </section>
@@ -40,7 +40,7 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 <!-- Fitur 1 -->
                 <div class="bg-white rounded-lg shadow border p-6 text-left">
-                    <div class="text-blue-600 text-3xl mb-4">
+                    <div class="text-blue-500 text-3xl mb-4">
                         <i class="fa-solid fa-credit-card"></i>
                     </div>
                     <h3 class="text-lg font-semibold text-gray-900 mb-1">Pembayaran Cepat</h3>
@@ -50,7 +50,7 @@
 
                 <!-- Fitur 2 -->
                 <div class="bg-white rounded-lg shadow border p-6 text-left">
-                    <div class="text-blue-600 text-3xl mb-4">
+                    <div class="text-blue-500 text-3xl mb-4">
                         <i class="fa-solid fa-rotate-left"></i>
                     </div>
                     <h3 class="text-lg font-semibold text-gray-900 mb-1">Riwayat Transaksi</h3>
@@ -60,7 +60,7 @@
 
                 <!-- Fitur 3 -->
                 <div class="bg-white rounded-lg shadow border p-6 text-left">
-                    <div class="text-blue-600 text-3xl mb-4">
+                    <div class="text-blue-500 text-3xl mb-4">
                         <i class="fa-regular fa-bell"></i>
                     </div>
                     <h3 class="text-lg font-semibold text-gray-900 mb-1">Notifikasi Tagihan</h3>
@@ -70,7 +70,7 @@
 
                 <!-- Fitur 4 -->
                 <div class="bg-white rounded-lg shadow border p-6 text-left">
-                    <div class="text-blue-600 text-3xl mb-4">
+                    <div class="text-blue-500 text-3xl mb-4">
                         <i class="fa-solid fa-shield"></i>
                     </div>
                     <h3 class="text-lg font-semibold text-gray-900 mb-1">Aman & Terpercaya</h3>
@@ -80,7 +80,7 @@
 
                 <!-- Fitur 5 -->
                 <div class="bg-white rounded-lg shadow border p-6 text-left">
-                    <div class="text-blue-600 text-3xl mb-4">
+                    <div class="text-blue-500 text-3xl mb-4">
                         <i class="fa-solid fa-headset"></i>
                     </div>
                     <h3 class="text-lg font-semibold text-gray-900 mb-1">Dukungan 24/7</h3>
@@ -90,7 +90,7 @@
 
                 <!-- Fitur 6 -->
                 <div class="bg-white rounded-lg shadow border p-6 text-left">
-                    <div class="text-blue-600 text-3xl mb-4">
+                    <div class="text-blue-500 text-3xl mb-4">
                         <i class="fa-regular fa-clock"></i>
                     </div>
                     <h3 class="text-lg font-semibold text-gray-900 mb-1">Fleksibel</h3>
@@ -117,7 +117,7 @@
 
                 <ul class="space-y-6 text-sm text-gray-700">
                     <li class="flex gap-3 items-start">
-                        <span class="text-blue-600 text-lg"><i class="fa-solid fa-arrow-right"></i></span>
+                        <span class="text-blue-500 text-lg"><i class="fa-solid fa-arrow-right"></i></span>
                         <div>
                             <p class="font-semibold">Tanpa Biaya Tersembunyi</p>
                             <p class="text-gray-600">Nikmati transparansi penuh. Kami tidak membebankan biaya tersembunyi
@@ -125,7 +125,7 @@
                         </div>
                     </li>
                     <li class="flex gap-3 items-start">
-                        <span class="text-blue-600 text-lg"><i class="fa-solid fa-arrow-right"></i></span>
+                        <span class="text-blue-500 text-lg"><i class="fa-solid fa-arrow-right"></i></span>
                         <div>
                             <p class="font-semibold">Integrasi Langsung dengan PLN</p>
                             <p class="text-gray-600">Sistem kami terintegrasi langsung dengan PLN, memastikan data tagihan
@@ -133,7 +133,7 @@
                         </div>
                     </li>
                     <li class="flex gap-3 items-start">
-                        <span class="text-blue-600 text-lg"><i class="fa-solid fa-arrow-right"></i></span>
+                        <span class="text-blue-500 text-lg"><i class="fa-solid fa-arrow-right"></i></span>
                         <div>
                             <p class="font-semibold">Antarmuka Pengguna Intuitif</p>
                             <p class="text-gray-600">Desain yang bersih dan mudah digunakan memastikan siapa pun dapat
@@ -146,7 +146,7 @@
             <!-- Kolom Kanan (Gambar/Ilustrasi) -->
             <div class="rounded-xl bg-gray-100 aspect-[4/3] flex items-center justify-center">
                 <!-- Placeholder image -->
-                <img src="/assets/images/smart_electric.png" class="w-full h-auto rounded-xl" alt="Ilustrasi" />
+                <img src="/assets/images/electric.jpg" class="w-full h-auto rounded-xl" alt="Ilustrasi" />
 
             </div>
         </div>

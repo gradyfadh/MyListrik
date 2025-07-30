@@ -134,7 +134,7 @@
                                 </div>
                                 <div class="flex justify-between items-center p-3 bg-orange-50 rounded-lg">
                                     <span class="text-sm text-gray-600">Rata-rata kWh</span>
-                                    <span class="font-semibold text-orange-600">
+                                    <span class="font-semibold text-yellow-500">
                                         {{ number_format($penggunaans->avg(function ($p) {return $p->meter_akhir - $p->meter_awal;}),0,',','.') }}
                                     </span>
                                 </div>

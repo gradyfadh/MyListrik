@@ -30,12 +30,19 @@ Route::view('/', 'landing.landing-page')->name('landing-page');
 Route::middleware('guest')->group(function () {
     Route::get('/admin/login', [AuthController::class, 'showLogin'])->name('login');
     Route::post('/admin/login', [AuthController::class, 'login'])->name('login.attempt');
-    Route::get('/register', [AuthController::class, 'showRegisterForm'])->name('register');
-    Route::post('/register', [AuthController::class, 'register'])->name('register.post');
-
     
+    // Fix: Change this line to redirect to pelanggan registration
+    Route::get('/register', function() {
+        return redirect()->route('pelanggan.register.form');
+    })->name('register');
+    
+    // Or if you want to use PelangganAuthController directly:
+    // Route::get('/register', [PelangganAuthController::class, 'showRegister'])->name('register');
+    
+    // Remove this line since AuthController doesn't have this method:
+    // Route::post('/register', [AuthController::class, 'register'])->name('register.post');
 
-    // New pelanggan auth routes (menggunakan PelangganAuthController)
+    // New pelanggan auth routes (these are correct)
     Route::get('/pelanggan/login', [PelangganAuthController::class, 'showLogin'])->name('pelanggan.login');
     Route::post('/pelanggan/login', [PelangganAuthController::class, 'login'])->name('pelanggan.login.attempt');
     Route::get('/pelanggan/register', [PelangganAuthController::class, 'showRegister'])->name('pelanggan.register.form');

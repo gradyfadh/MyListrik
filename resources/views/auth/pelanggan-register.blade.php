@@ -17,7 +17,7 @@
 
             <!-- Kiri: Form Registrasi -->
             <div class="p-8">
-                <h2 class="text-2xl font-bold text-[#ff654d] mb-1 text-center">🔌 MyListrik - Daftar Pelanggan</h2>
+                <h2 class="text-2xl font-bold text-blue-500 mb-1 text-center">🔌 MyListrik - Daftar Pelanggan</h2>
                 <p class="text-center text-sm text-gray-500 mb-6">Buat akun pelanggan baru untuk mulai mengelola tagihan
                     listrik Anda</p>
 
@@ -51,28 +51,28 @@
                             <div class="mb-4">
                                 <input type="text" name="nama_pelanggan" placeholder="Nama Lengkap"
                                     value="{{ old('nama_pelanggan') }}"
-                                    class="w-full rounded-full px-4 py-2.5 bg-blue-50 text-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#ff654d]"
+                                    class="w-full rounded-full px-4 py-2.5 bg-blue-50 text-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
                                     required>
                             </div>
 
                             <div class="mb-4">
                                 <input type="email" name="email" placeholder="Alamat Email"
                                     value="{{ old('email') }}"
-                                    class="w-full rounded-full px-4 py-2.5 bg-blue-50 text-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#ff654d]"
+                                    class="w-full rounded-full px-4 py-2.5 bg-blue-50 text-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-50"
                                     required>
                             </div>
 
                             <div class="mb-4">
                                 <input type="text" name="nomor_kwh" placeholder="Nomor KWH/Meter"
                                     value="{{ old('nomor_kwh') }}"
-                                    class="w-full rounded-full px-4 py-2.5 bg-blue-50 text-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#ff654d]"
+                                    class="w-full rounded-full px-4 py-2.5 bg-blue-50 text-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
                                     required>
                             </div>
 
                             <div class="mb-4">
                                 <input type="text" name="no_telp" placeholder="Nomor Telepon (Opsional)"
                                     value="{{ old('no_telp') }}"
-                                    class="w-full rounded-full px-4 py-2.5 bg-blue-50 text-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#ff654d]">
+                                    class="w-full rounded-full px-4 py-2.5 bg-blue-50 text-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
                             </div>
                         </div>
 
@@ -80,7 +80,7 @@
                         <div>
                             <div class="mb-4">
                                 <select name="id_tarif"
-                                    class="w-full rounded-full px-4 py-2.5 bg-blue-50 text-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#ff654d]"
+                                    class="w-full rounded-full px-4 py-2.5 bg-blue-50 text-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
                                     required>
                                     <option value="">-- Pilih Tarif Listrik --</option>
                                     @foreach ($tarifs as $tarif)
@@ -95,19 +95,19 @@
 
                             <div class="mb-4">
                                 <textarea name="alamat" rows="3" placeholder="Alamat Lengkap"
-                                    class="w-full rounded-lg px-4 py-2.5 bg-blue-50 text-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#ff654d]"
+                                    class="w-full rounded-lg px-4 py-2.5 bg-blue-50 text-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
                                     required>{{ old('alamat') }}</textarea>
                             </div>
 
                             <div class="mb-4">
                                 <input type="password" name="password" placeholder="Kata Sandi (Min. 8 karakter)"
-                                    class="w-full rounded-full px-4 py-2.5 bg-blue-50 text-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#ff654d]"
+                                    class="w-full rounded-full px-4 py-2.5 bg-blue-50 text-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
                                     required>
                             </div>
 
                             <div class="mb-4">
                                 <input type="password" name="password_confirmation" placeholder="Konfirmasi Kata Sandi"
-                                    class="w-full rounded-full px-4 py-2.5 bg-blue-50 text-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#ff654d]"
+                                    class="w-full rounded-full px-4 py-2.5 bg-blue-50 text-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
                                     required>
                             </div>
                         </div>
@@ -125,12 +125,12 @@
                     </div>
 
                     <button type="submit"
-                        class="w-full bg-[#ff654d] text-white py-2.5 mt-2 rounded-full font-semibold hover:bg-[#e14b3b] transition">
+                        class="w-full bg-blue-500 text-white py-2.5 mt-2 rounded-full font-semibold hover:bg-blue-700 transition">
                         Daftar sebagai Pelanggan
                     </button>
 
                     <div class="mt-4 flex justify-between text-sm">
-                        <a href="{{ route('pelanggan.login') }}" class="text-gray-600 hover:text-[#ff654d]">&larr;
+                        <a href="{{ route('pelanggan.login') }}" class="text-gray-600 hover:text-blue-500">&larr;
                             Kembali ke Login</a>
                         <a href="{{ route('login') }}" class="text-gray-500 hover:underline">Login sebagai Admin</a>
                     </div>
@@ -139,7 +139,7 @@
 
             <!-- Kanan: Branding -->
             <div
-                class="bg-gradient-to-br from-[#ff654d] to-[#e14b3b] text-white flex flex-col justify-center items-center p-8">
+                class="bg-blue-500 text-white flex flex-col justify-center items-center p-8">
                 <div class="text-center">
                     <div class="text-4xl font-bold mb-4">⚡ MyListrik</div>
                     <h3 class="text-xl font-semibold mb-4">Bergabunglah dengan Kami!</h3>

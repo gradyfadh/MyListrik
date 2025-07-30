@@ -217,7 +217,7 @@
                                                 <p class="text-xs text-gray-500">{{ $bank->atas_nama }}</p>
                                                 <p class="text-sm font-mono">{{ $bank->nomor_rekening }}</p>
                                                 @if ($bank->biaya_admin > 0)
-                                                    <p class="text-xs text-orange-600">+ Biaya Admin:
+                                                    <p class="text-xs text-yellow-500">+ Biaya Admin:
                                                         {{ $bank->biaya_admin_format }}</p>
                                                 @endif
                                             </div>
@@ -245,7 +245,7 @@
                                                 <p class="text-sm font-mono">
                                                     {{ $ewallet->nomor_rekening ?: 'Scan QR Code' }}</p>
                                                 @if ($ewallet->biaya_admin > 0)
-                                                    <p class="text-xs text-orange-600">+ Biaya Admin:
+                                                    <p class="text-xs text-yellow-500">+ Biaya Admin:
                                                         {{ $ewallet->biaya_admin_format }}</p>
                                                 @endif
                                             </div>
@@ -273,7 +273,7 @@
                                                 <p class="text-sm font-mono">
                                                     {{ $qr->nomor_rekening ?: 'Scan QR Code' }}</p>
                                                 @if ($qr->biaya_admin > 0)
-                                                    <p class="text-xs text-orange-600">+ Biaya Admin:
+                                                    <p class="text-xs text-yellow-500">+ Biaya Admin:
                                                         {{ $qr->biaya_admin_format }}</p>
                                                 @endif
                                             </div>
@@ -301,7 +301,7 @@
                                                 <p class="text-sm font-mono">
                                                     {{ $ret->nomor_rekening ?: 'Kode Pembayaran' }}</p>
                                                 @if ($ret->biaya_admin > 0)
-                                                    <p class="text-xs text-orange-600">+ Biaya Admin:
+                                                    <p class="text-xs text-yellow-500">+ Biaya Admin:
                                                         {{ $ret->biaya_admin_format }}</p>
                                                 @endif
                                             </div>
