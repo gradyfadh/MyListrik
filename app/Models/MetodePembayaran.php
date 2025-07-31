@@ -94,9 +94,9 @@ class MetodePembayaran extends Model
     public function getLogoUrlAttribute()
     {
         if ($this->logo) {
-            return asset('storage/' . $this->logo);
+            return asset($this->logo);
         }
-        return asset('storage/images/default-payment.png');
+        return asset('assets/images/default-payment.png');
     }
 
     /**

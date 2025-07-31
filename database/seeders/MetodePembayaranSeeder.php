@@ -13,6 +13,11 @@ class MetodePembayaranSeeder extends Seeder
      */
     public function run(): void
     {
+        // Hapus data lama terlebih dahulu
+        DB::statement('SET FOREIGN_KEY_CHECKS=0;');
+        DB::table('metode_pembayaran')->truncate();
+        DB::statement('SET FOREIGN_KEY_CHECKS=1;');
+        
         $now = now();
 
         $data = [
@@ -24,7 +29,7 @@ class MetodePembayaranSeeder extends Seeder
                 'nomor_rekening'  => '1234567890',
                 'biaya_admin'     => 2500,
                 'deskripsi'       => 'Transfer ke rekening BCA perusahaan.',
-                'logo'            => 'images/bca.png',
+                'logo'            => 'assets/images/bca.png',
                 'jenis_pembayaran' => 'Bank',
             ],
             [
@@ -34,7 +39,7 @@ class MetodePembayaranSeeder extends Seeder
                 'nomor_rekening'  => '1400000001',
                 'biaya_admin'     => 2500,
                 'deskripsi'       => 'Pembayaran via Mandiri Bill Payment atau transfer biasa.',
-                'logo'            => 'images/mandiri.png',
+                'logo'            => 'assets/images/mandiri.png',
                 'jenis_pembayaran' => 'Bank',
             ],
             [
@@ -44,7 +49,7 @@ class MetodePembayaranSeeder extends Seeder
                 'nomor_rekening'  => '0090000002',
                 'biaya_admin'     => 2500,
                 'deskripsi'       => 'Pembayaran melalui Virtual Account BNI.',
-                'logo'            => 'images/bni.png',
+                'logo'            => 'assets/images/bni.png',
                 'jenis_pembayaran' => 'Bank',
             ],
             [
@@ -54,7 +59,7 @@ class MetodePembayaranSeeder extends Seeder
                 'nomor_rekening'  => '002901234567890',
                 'biaya_admin'     => 2500,
                 'deskripsi'       => 'Support BRImo, ATM & internet banking.',
-                'logo'            => 'images/bri.png',
+                'logo'            => 'assets/images/bri.png',
                 'jenis_pembayaran' => 'Bank',
             ],
             [
@@ -64,7 +69,7 @@ class MetodePembayaranSeeder extends Seeder
                 'nomor_rekening'  => '7131200001',
                 'biaya_admin'     => 3000,
                 'deskripsi'       => 'Virtual Account & transfer Syariah.',
-                'logo'            => 'images/bsi.png',
+                'logo'            => 'assets/images/bsi.png',
                 'jenis_pembayaran' => 'Bank',
             ],
 
@@ -76,7 +81,7 @@ class MetodePembayaranSeeder extends Seeder
                 'nomor_rekening'  => '081234567890',
                 'biaya_admin'     => 1500,
                 'deskripsi'       => 'Pembayaran instan melalui aplikasi OVO.',
-                'logo'            => 'images/ovo.png',
+                'logo'            => 'assets/images/ovo.png',
                 'jenis_pembayaran' => 'E-Wallet',
             ],
             [
@@ -86,7 +91,7 @@ class MetodePembayaranSeeder extends Seeder
                 'nomor_rekening'  => '081234567891',
                 'biaya_admin'     => 1500,
                 'deskripsi'       => 'Bayar pakai saldo GoPay / GoPayLater.',
-                'logo'            => 'images/gopay.png',
+                'logo'            => 'assets/images/gopay.png',
                 'jenis_pembayaran' => 'E-Wallet',
             ],
             [
@@ -96,7 +101,7 @@ class MetodePembayaranSeeder extends Seeder
                 'nomor_rekening'  => '081234567892',
                 'biaya_admin'     => 1500,
                 'deskripsi'       => 'Pembayaran cepat lewat aplikasi DANA.',
-                'logo'            => 'images/dana.png',
+                'logo'            => 'assets/images/dana.png',
                 'jenis_pembayaran' => 'E-Wallet',
             ],
             [
@@ -106,7 +111,7 @@ class MetodePembayaranSeeder extends Seeder
                 'nomor_rekening'  => '081234567893',
                 'biaya_admin'     => 1500,
                 'deskripsi'       => 'Gunakan saldo ShopeePay / SPayLater.',
-                'logo'            => 'images/spay.png',
+                'logo'            => 'assets/images/spay.png',
                 'jenis_pembayaran' => 'E-Wallet',
             ],
             [
@@ -116,7 +121,7 @@ class MetodePembayaranSeeder extends Seeder
                 'nomor_rekening'  => null,
                 'biaya_admin'     => 2000,
                 'deskripsi'       => 'Scan kode QRIS untuk semua aplikasi bank/e‑wallet.',
-                'logo'            => 'images/qris.png',
+                'logo'            => 'assets/images/qris.png',
                 'jenis_pembayaran' => 'QRIS',
             ],
         ];
